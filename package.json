@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selimakty/Clean-Blog.git"
+  },
+  "keywords": [
+    "pcat"
+  ],
+  "author": "selim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selimakty/Clean-Blog/issues"
+  },
+  "homepage": "https://github.com/selimakty/Clean-Blog#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "save": "^2.5.0"
+  }
+}
